@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+header img {
+    margin: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    height: 70px;
+}
+
+header nav {
+    float: right;
+    width: 80%;
+}
+
+header nav ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    font-size: 20px;
+    padding-left: 100px ;
+    padding-top: 40px;    
+}
+
+header nav ul li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+header nav ul li a {
+    color: rgb(125, 125, 125);
+    text-decoration: none;
+}
+
+.button{
+    padding-bottom: 20px;
+}
+
+header nav button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    font-weight: bold;
+    top: 30px;
+    right: 70px;
+    color: blue;
+    background-color: white;
+    border: solid blue 2px;
+    transition: 0.5s;
+}
+
+header nav button:hover {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: solid rgb(255, 255, 255) 2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+
+.section1 {
+    /* position: absolute; */
+    position: relative;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    height: 1vh;
+    padding: 100px;
+
+}
+
+.section1 h3 {
+    font-size: 50px; 
+    line-height: 75px;  
+    width: 40%; 
+}
+
+.section1 h3 span {
+    color: blue;
+}
+
+.section1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.but{
+    font-size: 15px;
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.but:hover{
+    border: 1px solid blue ;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.section1 img {
+    position: absolute;
+    top: -200px;
+    right: -50px;
+    scale: 70%;
+}
+
+.section2{
+    top: 80%;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+}
+
+.title h4{
+    font-size: 25px;
+}
+
+.title p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+
+
+.section3{
+    top: 82%;
+    text-align: center;
+    width: 100%;
+}
+
+.cards .card {
+    text-align: left;
+    display: inline-block;
+    width: 22%;
+    height: 300px;
+    margin: 1%;
+    padding: 19px;
+    border-radius: 20px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 8px  rgb(69, 69, 69);
+}
+
+.card img{
+    margin-top: 20px ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card h5{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.card a{
+    text-decoration: none;
+    color: blue;
+}
+
+.section4{
+    top: 95%;
+}
+
+.section5{
+    top: 97%;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 100px;
+    height: 70%;
+}
+
+.section5 img{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.section5 h5{
+    top: 35%;
+}
+
+.section5 p{
+    top: 45%;
+    left: -5px;
+    color: gray;
+    font-size: 15px;
+}
+
+.section5 button {
+    top: 15%;
+    bottom: 0;
+    height: 50px;
+}
+
+.section6{
+     top: 100%;
+}
+
+.section7{
+    top: 103%;
+    text-align: center;
+}
+
+.section7 .card{
+    box-shadow: none;
+}
+
+.section7 img{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.section7 h5 {
+    top:50%;
+    left: -20px;
+}
+
+.section7 p {
+    top: 45%;
+    left: -20px;
+}
+
+.section8{
+    top:110%;}
+
+.section8 h3 {
+    display: inline-block;
+    font-size: 40px;
+    left: 12%;
+}
+
+.section8 button{
+    height: 50px;
+    float: right;
+    bottom: 22px;
+    right: 14%;
+}
+
+footer{
+    background-color: blue;
+    width: 100%;
+    height: 45%;
+    top: 120%;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer div {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    color: white;
+}
+
+footer .div1 img{
+    top: -20px;
+}
+
+footer div ul{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+footer .div1{
+    position: relative;
+}
+
+footer .list li{
+    margin-top: 20px;
+}
+
+footer .div1 .copy {
+    bottom: 100px;
+    left: 0px;
+    position: absolute;
+}
+footer .div1 p{
+    line-height: 25px;
+}
+
+.list{
+    top:40px;
+}
